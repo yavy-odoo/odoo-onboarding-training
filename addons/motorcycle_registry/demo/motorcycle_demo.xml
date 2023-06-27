@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Motorcycle Registry -->
+        <record id="motorcycle_1" model="motorcycle.registry">
+            <field name="first_name">Sam</field>
+            <field name="last_name">Smith</field>
+            <field name="registry_number">V129035012</field>
+            <field name="vin">1G1YY22G8X5100001</field>
+            <field name="current_mileage">10000</field>
+            <!-- <field name="picture" type="base64" file="motorcycle_registry/static/img/demo/motorcycle_1.jpeg"/> -->
+            <field name="license_plate">ABC123</field>
+            <field name="register_date">2019-01-01</field>
+        </record>
+
+        <record id="motorcycle_2" model="motorcycle.registry">
+            <field name="first_name">Post</field>
+            <field name="last_name">Malone</field>
+            <field name="registry_number">V5320231512</field>
+            <field name="vin">1G1YY22G8X1500022</field>
+            <field name="current_mileage">10000</field>
+            <!-- <field name="picture" type="base64" file="motorcycle_registry/static/img/demo/motorcycle_2.jpg"/> -->
+            <field name="license_plate">ABC123</field>
+            <field name="register_date">2019-01-01</field>
+        </record>
+
+        <record id="motorcycle_3" model="motorcycle.registry">
+            <field name="first_name">Dua</field>
+            <field name="last_name">Lipa</field>
+            <field name="registry_number">V35785012</field>
+            <field name="vin">1G1YY22G8X52003912</field>
+            <field name="current_mileage">13500</field>
+            <!-- <field name="picture" type="base64" file="motorcycle_registry/static/img/demo/motorcycle_3.jpg"/> -->
+            <field name="license_plate">GHI789</field>
+            <field name="register_date">2021-09-05</field>
+        </record>
+
+    </data>
+</odoo>

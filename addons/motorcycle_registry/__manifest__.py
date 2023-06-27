@@ -13,9 +13,10 @@ This Module is used to keep track of the Motorcycle Registration and Ownership o
     "author": "yavy-odoo",
     "website": "https://github.com/yavy-odoo/",
     "depends": [
-        # "base",
+        "base",
     ],
     "data": [
+        "demo/motorcycle_demo.xml",
         # "views/templates.xml",
     ],
     "assets": [],
